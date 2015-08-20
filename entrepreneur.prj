@@ -1,0 +1,29 @@
+[Project ID]
+Signature=UE Proj: v.1
+[Project Information]
+Use Relative Directory=1
+Relative to Project File=1
+Project Start=DF07080001000A00120007002400000036
+Include Sub Directories=1
+Project Tagfile=
+Project Wordfile=
+Filter=
+Create Tagfile=0
+Working Time=39
+[Files]
+0=index.html
+1=project.json
+2=.\res\
+3=.\src\
+[Open Files]
+Open File0=D:\web-root\entrepreneur\index.html
+Open File Pos0=0
+Open File Line0=0
+Open File Window Pos0=0,1,-1,-1,-8,-30,150,150,1027,574
+Open File1=D:\web-root\entrepreneur\project.json
+Open File Pos1=141
+Open File Line1=0
+Active File Index=1
+Open File Window Pos1=2,3,-1,-1,-8,-30,175,175,1031,578
+Open File2=
+Active File Display Mode=3
