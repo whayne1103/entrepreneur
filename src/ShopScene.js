@@ -12,8 +12,8 @@ var ShopLayer = cc.Layer.extend({
 
         var size = cc.winSize;
 
-        var shopscene = ccs.load(res.ShopScene_json);
-        var root = shopscene.node;
+        var scene = ccs.load(res.ShopScene_json);
+        var root = scene.node;
         this.addChild(root);
         
         this.backBtn = ccui.helper.seekWidgetByName(root, "BackButton");

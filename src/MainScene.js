@@ -6,6 +6,8 @@ var MainLayer = cc.Layer.extend({
     sprite:null,
     BackBtn:null,
     ComputerBtn:null,
+    InfoBtn:null,
+    TaskBtn:null,
 
     ctor:function () {
         this._super();
@@ -13,8 +15,8 @@ var MainLayer = cc.Layer.extend({
 
         var size = cc.winSize;
 
-        var mainscene = ccs.load(res.MainScene_json);
-        var root = mainscene.node;
+        var scene = ccs.load(res.MainScene_json);
+        var root = scene.node;
         this.addChild(root);
         
         this.BackBtn = ccui.helper.seekWidgetByName(root, "BackButton");
@@ -22,6 +24,12 @@ var MainLayer = cc.Layer.extend({
         
         this.ComputerBtn = ccui.helper.seekWidgetByName(root, "ComputerButton");
         this.ComputerBtn.addTouchEventListener(this.onTouchEvent, this);
+        
+        this.InfoBtn = ccui.helper.seekWidgetByName(root, "InfoButton");
+        this.InfoBtn.addTouchEventListener(this.onTouchEvent, this);
+        
+        this.TaskBtn = ccui.helper.seekWidgetByName(root, "TaskButton");
+        this.TaskBtn.addTouchEventListener(this.onTouchEvent, this);
 
         return true;
     },
@@ -43,6 +51,12 @@ var MainLayer = cc.Layer.extend({
     		}
     		else if (widget.getName() === this.BackBtn.getName()) {
     			cc.director.popScene();
+    		}
+    		else if (widget.getName() === this.InfoBtn.getName()) {
+                cc.director.pushScene(new InfoScene());
+    		}
+    		else if (widget.getName() === this.TaskBtn.getName()) {
+                cc.director.pushScene(new TaskScene());
     		}
         	break;
         }

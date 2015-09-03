@@ -13,9 +13,13 @@
     "jsList" : [
         "src/resource.js",
         "src/global.js",
+        "src/GameData.js",
         "src/StartScene.js",
         "src/MainScene.js",
         "src/ShopScene.js",
+        "src/InfoScene.js",
+        "src/TaskScene.js",
+        "src/DoTaskScene.js",
         "src/app.js"
     ]
 }

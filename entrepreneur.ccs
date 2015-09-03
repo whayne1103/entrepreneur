@@ -33,6 +33,12 @@
           <Image Name="stop.png" />
         </Folder>
         <Project Name="InfoScene.csd" Type="Scene" />
+        <Project Name="DoTaskScene.csd" Type="Scene" />
+        <Folder Name="DoTaskScene">
+          <Folder Name="Layer">
+            <Project Name="AnswerLayer.csd" Type="Layer" />
+          </Folder>
+        </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>

@@ -32,7 +32,7 @@
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="StartButton" ActionTag="-263251806" Tag="15" IconVisible="False" LeftMargin="530.0000" RightMargin="270.0000" TopMargin="482.0000" BottomMargin="98.0000" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="9" BottomEage="9" Scale9OriginX="15" Scale9OriginY="9" Scale9Width="130" Scale9Height="42" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="StartButton" ActionTag="-263251806" Tag="15" IconVisible="False" LeftMargin="530.0000" RightMargin="270.0000" TopMargin="482.0000" BottomMargin="98.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="9" BottomEage="9" Scale9OriginX="15" Scale9OriginY="9" Scale9Width="130" Scale9Height="42" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="160.0000" Y="60.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="610.0000" Y="128.0000" />
@@ -42,12 +42,12 @@
             <PreSize X="0.1667" Y="0.0938" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
-            <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
+            <PressedFileData Type="Normal" Path="TaskScene/start.png" Plist="" />
             <NormalFileData Type="Normal" Path="TaskScene/start.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
-          <AbstractNodeData Name="StopButton" ActionTag="-91454175" Tag="16" IconVisible="False" LeftMargin="700.0000" RightMargin="100.0000" TopMargin="484.0000" BottomMargin="96.0000" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="9" BottomEage="9" Scale9OriginX="15" Scale9OriginY="9" Scale9Width="130" Scale9Height="42" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="StopButton" ActionTag="-91454175" Tag="16" IconVisible="False" LeftMargin="700.0000" RightMargin="100.0000" TopMargin="484.0000" BottomMargin="96.0000" TouchEnable="True" FontSize="14" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="9" BottomEage="9" Scale9OriginX="15" Scale9OriginY="9" Scale9Width="130" Scale9Height="42" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="160.0000" Y="60.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="780.0000" Y="126.0000" />
@@ -61,6 +61,19 @@
             <NormalFileData Type="Normal" Path="TaskScene/stop.png" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="ListView_1" ActionTag="-522802105" Tag="12" IconVisible="False" PositionPercentXEnabled="True" PositionPercentYEnabled="True" PercentWidthEnable="True" PercentHeightEnable="True" PercentWidthEnabled="True" PercentHeightEnabled="True" LeftMargin="157.9999" RightMargin="602.0001" TopMargin="248.0024" BottomMargin="191.9976" TouchEnable="True" BackColorAlpha="102" ComboBoxIndex="1" ColorAngle="90.0000" ScrollDirectionType="0" DirectionType="Vertical" ctype="ListViewObjectData">
+            <Size X="200.0000" Y="200.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="257.9999" Y="291.9976" />
+            <Scale ScaleX="1.5000" ScaleY="2.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.2687" Y="0.4562" />
+            <PreSize X="0.2083" Y="0.3125" />
+            <SingleColor A="255" R="150" G="150" B="255" />
+            <FirstColor A="255" R="150" G="150" B="255" />
+            <EndColor A="255" R="255" G="255" B="255" />
+            <ColorVector ScaleY="1.0000" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

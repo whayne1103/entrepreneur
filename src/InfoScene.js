@@ -2,28 +2,22 @@
  * 
  */
 
-var StartLayer = cc.Layer.extend({
+var InfoLayer = cc.Layer.extend({
     sprite: null,
-    newGameBtn: null,
+    backBtn: null,
 
     ctor:function () {
-        //////////////////////////////
-        // 1. super init first
         this._super();
         //cc.log("StartLayer:ctor");
 
-        /////////////////////////////
-        // 2. add a menu item with "X" image, which is clicked to quit the program
-        //    you may modify it.
-        // ask the window size
         var size = cc.winSize;
 
-        var scene = ccs.load(res.StartScene_json);
+        var scene = ccs.load(res.InfoScene_json);
         var root = scene.node;
         this.addChild(root);
         
-        this.newGameBtn = ccui.helper.seekWidgetByName(root, "NewGameButton");
-        this.newGameBtn.addTouchEventListener(this.onTouchEvent, this);
+        this.backBtn = ccui.helper.seekWidgetByName(root, "BackButton");
+        this.backBtn.addTouchEventListener(this.onTouchEvent, this);
 
         return true;
     },
@@ -40,8 +34,8 @@ var StartLayer = cc.Layer.extend({
         	break;
         case ccui.Widget.TOUCH_ENDED:
             cc.log("TOUCH_ENDED");
-    		if (widget.getName() === this.newGameBtn.getName()) {
-                cc.director.pushScene(new MainScene());
+    		if (widget.getName() === this.backBtn.getName()) {
+    			cc.director.popScene();
     		}
         	break;
         }
@@ -54,12 +48,11 @@ var StartLayer = cc.Layer.extend({
 	
 });
 
-var StartScene = cc.Scene.extend({
+var InfoScene = cc.Scene.extend({
     ctor:function () {
-    	cc.log(res);
         this._super();
 	    //cc.log("StartScene:ctor");
-        var layer = new StartLayer();
+        var layer = new InfoLayer();
         this.addChild(layer);
     }
 });

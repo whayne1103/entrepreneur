@@ -1,0 +1,28 @@
+{
+  "ID": "586f4537-605d-40e5-a140-86e8fc7424ed",
+  "Version": "2.3.2.0",
+  "Name": "AnswerLayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 4,
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [],
+      "ctype": "GameProjectData"
+    }
+  },
+  "Type": "Layer"
+}
