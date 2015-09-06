@@ -36,12 +36,9 @@
         <Project Name="DoTaskScene.csd" Type="Scene" />
         <Folder Name="DoTaskScene">
           <Folder Name="Layer">
-            <Image Name="dlg.png" />
-            <Image Name="award.png" />
+            <Project Name="AnswerLayer.csd" Type="Layer" />
           </Folder>
         </Folder>
-        <Project Name="AnswerLayer.csd" Type="Layer" />
-        <Project Name="AwardLayer.csd" Type="Layer" />
       </RootFolder>
     </Group>
   </SolutionFolder>

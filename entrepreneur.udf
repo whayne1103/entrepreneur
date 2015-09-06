@@ -31,10 +31,9 @@
     <Item Key="TabsParamsKey">
       <Value ctype="TabsInfo">
         <OpenedDocuments>
-          <FilePathData Path="AnswerLayer.csd" />
-          <FilePathData Path="AwardLayer.csd" />
+          <FilePathData Path="DoTaskScene/Layer/AnswerLayer.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="AwardLayer.csd" />
+        <ActiveDocument Path="DoTaskScene/Layer/AnswerLayer.csd" />
       </Value>
     </Item>
   </Properties>
