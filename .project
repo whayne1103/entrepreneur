@@ -5,12 +5,15 @@
 	<projects>
 	</projects>
 	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.wst.jsdt.core.javascriptValidator</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>org.ccdt.cocosproject</nature>
 		<nature>org.ccdt.jsdt.core.jsNature</nature>
+		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
-	<cocosprojecttemplate>
-		<version>1.2</version>
-	</cocosprojecttemplate>
 </projectDescription>

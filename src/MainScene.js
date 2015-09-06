@@ -42,10 +42,10 @@ var MainLayer = cc.Layer.extend({
     onTouchEvent: function (widget, evtType) {
         switch (evtType) {
         case ccui.Widget.TOUCH_BEGAN:
-            cc.log("TOUCH_BEGAN");
+            //cc.log("TOUCH_BEGAN");
         	break;
         case ccui.Widget.TOUCH_ENDED:
-            cc.log("TOUCH_ENDED");
+            //cc.log("TOUCH_ENDED");
     		if (widget.getName() === this.ComputerBtn.getName()) {
                 cc.director.pushScene(new ShopScene());
     		}

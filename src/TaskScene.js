@@ -53,10 +53,10 @@ var TaskLayer = cc.Layer.extend({
     onTouchEvent : function (sender, evtType) {
         switch (evtType) {
         case ccui.Widget.TOUCH_BEGAN:
-            cc.log("TOUCH_BEGAN");
+            //cc.log("TOUCH_BEGAN");
         	break;
         case ccui.Widget.TOUCH_ENDED:
-            cc.log("TOUCH_ENDED");
+            //cc.log("TOUCH_ENDED");
     		if (this.backBtn.getName() === sender.getName()) {
     			cc.director.popScene();
     		}

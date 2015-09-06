@@ -9,7 +9,8 @@ var res = {
     TaskScene_json : "res/TaskScene.json",
     
     DoTaskScene_json : "res/DoTaskScene.json",
-    AnswerLayer_json : "res/DoTaskScene/Layer/AnswerLayer.json",
+    AnswerLayer_json : "res/AnswerLayer.json",
+    AwardLayer_json : "res/AwardLayer.json",
     
     TaskList_json : "res/TaskList.json"
 };
